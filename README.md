@@ -1,28 +1,36 @@
-# inventori
+# Sistem Informasi Inventori Barang Berbasis Web
 
-Teknologi :
+## Deskripsi
+Sistem Informasi Inventori Barang Berbasis Web merupakan aplikasi yang dirancang untuk membantu proses pengelolaan data inventori secara efektif dan efisien. Aplikasi ini memudahkan pengguna dalam mengelola data barang, transaksi barang masuk dan keluar, serta menghasilkan laporan stok secara cepat dan akurat.
 
-- codeigniter 3
-- database mysql
-- library php pdf
+## Teknologi
+- PHP
+- CodeIgniter 3
+- MySQL
+- Bootstrap
+- FPDF
 
-Fitur :
-- 2 hak akses (Admin dan user). 
-- data master barang, jenis barang dan satuan.
-- Transaksi keluar masuk barang.
-- Laporan print pdf.
-- tambah user/admin.
+## Fitur
+- Login Multi User (Admin, User, dan Pimpinan)
+- Dashboard
+- Data Barang
+- Data Jenis Barang
+- Data Satuan
+- Transaksi Barang Masuk
+- Transaksi Barang Keluar
+- Laporan Stok Barang
+- Laporan Barang Masuk
+- Laporan Barang Keluar
+- Cetak Laporan PDF
 
-More info :
-- email : diszaid@gmail.com
- 
+## Cara Menjalankan
+1. Import database ke MySQL menggunakan phpMyAdmin.
+2. Simpan folder project pada direktori `C:\xampp\htdocs`.
+3. Jalankan Apache dan MySQL melalui XAMPP.
+4. Buka browser, kemudian akses:
+```
+http://localhost/inventori-main
+```
 
-Berikut adalah sebagian screenshot tampilan nya:
-
-![login](https://user-images.githubusercontent.com/33209112/104845574-c256a200-5908-11eb-98b0-fff3a72a7d4c.png)
-
-![dashboard](https://user-images.githubusercontent.com/33209112/104845750-ae5f7000-5909-11eb-9842-6cb6d31df054.png)
-
-![laporan](https://user-images.githubusercontent.com/33209112/104845755-b28b8d80-5909-11eb-90fb-e9f03d22035d.png)
-
-
+## Pengembang
+Project ini dikembangkan sebagai tugas akhir/proyek akademik dalam pembuatan **Sistem Informasi Inventori Barang Berbasis Web**.
